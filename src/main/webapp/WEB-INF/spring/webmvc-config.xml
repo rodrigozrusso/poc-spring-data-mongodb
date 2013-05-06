@@ -25,10 +25,6 @@
 		</property>
 	</bean>
 
-	<!-- Loads the exception layer exclusively. -->
-	<context:component-scan
-		base-package="com.walmart.pangaea.customer.services.frontend.exception" />
-
 	<context:property-placeholder location="classpath*:application.properties" />
 
 	<!-- Turns on support for mapping requests to Spring MVC @Controller methods 
